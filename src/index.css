@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100%;
+}
+.parent{
+  background-color: rgb(159, 159, 239);
+  padding: 20px;
+}
+.cards{
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.card{
+  height: 500px;
+  width: 350px;
+  background-color: rgb(234, 236, 159);
+  border-radius: 30px;
+  position: relative;
+}
+.card img{
+  height: 450px;
+  width: 350px;
+}
+.center{
+  position: absolute;
+  top: 290px;
+  left: 80px;
+  gap:100px;
+  display: flex;
+  color: white;
+}
+.center .col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.top .player{
+  position: absolute;
+  left: 80px;
+  height: 250px;
+  width: 300px;
+  top:29px;
+  left: 30px;
+  border-radius: 50%;
+}
